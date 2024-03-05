@@ -1,4 +1,4 @@
-README CN.md[README](<https://github.com/RichbeamTechnology/Lakibeam_ROS2_Driver/blob/main/README.md>) - English Version of the readme
+[README](<https://github.com/RichbeamTechnology/Lakibeam_ROS2_Driver/blob/main/README.md>) - English Version of the readme
 
 # 1 关于此驱动
 
@@ -14,14 +14,14 @@ Ubuntu 22.04 - with ROS2 humble hawksbill desktop-full installed。
 
 Ubuntu 安装指南请参考 http://ros.org 上的资源。
 
-# 3 安装 ROS 驱动
+# 3 安装 ROS2 驱动
 ## 3.1 创建工作空间
 ```
 cd~
 mkdir -p catkin_ws/src
 ```
 ## 3.2 编译
-在 Lakibeam ROS Driver 目录中，执行以下指令编译工程:
+在 Lakibeam ROS2 Driver 目录中，执行以下指令编译工程:
 ```
 git clone https://github.com/RichbeamTechnology/Lakibeam_ROS2_Driver.git
 cd catkin_ws/src
@@ -67,5 +67,4 @@ ros2 launch lakibeam1 lakibeam1_scan_view.launch.py
 (run LaserScan node in Rviz)
 ```
 Rviz 中 运行 LaserScan 节点时的实时点云数据如下图所示：
-![alt text](ros2.png)
 

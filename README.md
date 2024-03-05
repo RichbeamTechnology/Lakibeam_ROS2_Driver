@@ -60,3 +60,4 @@ ros2 launch lakibeam1 lakibeam1_scan_view.launch.py
 (run LaserScan node in Rviz)
 ```
 The real time point cloud data under LaserScan in Rviz is shown in the picture below:
+![image](https://github.com/RichbeamTechnology/Lakibeam_ROS2_Driver/blob/main/assets/ros2.png)

@@ -2,7 +2,7 @@
 
 # 1 关于此驱动
 
-Lakibeam ROS2 SDK 由锐驰智光（北京）科技有限公司针对LakiBeam1S/LakiBeam1/LakiBeam1L激光雷达开发。启动后，该驱动将监听雷达发送的UDP数据包，解析数据并将点云发布到 ROS2 的/scan 或/pcd 话题中。
+Lakibeam ROS2 Deiver 由锐驰智光（北京）科技有限公司针对LakiBeam1S/LakiBeam1/LakiBeam1L激光雷达开发。启动后，该驱动将监听雷达发送的UDP数据包，解析数据并将点云发布到 ROS2 的/scan 或/pcd 话题中。
 
 # 2 环境和依赖关系
 
@@ -68,3 +68,4 @@ ros2 launch lakibeam1 lakibeam1_scan_view.launch.py
 ```
 Rviz 中 运行 LaserScan 节点时的实时点云数据如下图所示：
 
+![image](https://github.com/RichbeamTechnology/Lakibeam_ROS2_Driver/blob/main/assets/ros2.png)

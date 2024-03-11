@@ -37,15 +37,15 @@ Before receiving data from sensor, we should configure parameters in launch file
 
 | Parameter name     | Instruction     | 
 | -------- | -------- |
-| inverted | Invert the sensor, "true" is inverted. |
+| inverted | Invert the sensor, "true" is inverted |
 | hostip | Destination IP address, monitoring to all IP address when set to 0.0.0.0 |
 | port | Monitoring port, must be same with port number set on web server when using dual sensors in one PC |
 | angle_offset | Point cloud rotation angle around Z-axes, can be set to a negative number |
-| scanfreq | Scan frequency,range:10、20、25、30 |
-| filter | General filter,range:0、1、2、3 |
-| laser_enable | range: true、false |
-| scan_range_start | range:45°~315° |
-| scan_range_stop | range:45°~315°,The scan_range_stop must be greater than the scan_range_start |
+| scanfreq | Scan frequency, range: 10, 20, 25, 30 |
+| filter | General filter, range: 0, 1, 2,  3 |
+| laser_enable | range: true, false |
+| scan_range_start | range: 45°~315° |
+| scan_range_stop | range: 45°~315°, The scan_range_stop must be greater than the scan_range_start |
 
 
 # 6 View the Real Time Data
@@ -57,7 +57,7 @@ source ./install/setup.bash
 ros2 launch lakibeam1 lakibeam1_scan.launch.py
 (run LaserScan node)
 ros2 launch lakibeam1 lakibeam1_scan_view.launch.py
-(run LaserScan node in Rviz)
+(run LaserScan node in RViz)
 ```
-The real time point cloud data under LaserScan in Rviz is shown in the picture below:
+The real time point cloud data under LaserScan in RViz is shown in the picture below:
 ![image](https://github.com/RichbeamTechnology/Lakibeam_ROS2_Driver/blob/main/assets/ros2.png)

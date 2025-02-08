@@ -172,7 +172,7 @@ def generate_launch_description():
     )
     lakibeam1_pcd_dir = get_package_share_directory('lakibeam1')
     rviz_config_dir = os.path.join(lakibeam1_pcd_dir,'rviz','lakibeam1_scan_dual.rviz')
-    use_sim_time = LaunchConfiguration('use_sim_time', default='true')
+    use_sim_time = LaunchConfiguration('use_sim_time', default='false')
     # rviz_node = Node(
     #         package='rviz2',
     #         executable='rviz2',

@@ -226,7 +226,7 @@ protected:
 				}
 
 				scan_pub->publish(scan);
-				RCLCPP_INFO(get_logger(), "New topic %s published, total data points: %d", output_topic.c_str(), num_readings/2);
+				RCLCPP_INFO(get_logger(), "New topic %s published, total data points: %d", output_topic.c_str(), num_readings);
 				scan_vec.clear();
 				scan_vec_ready = 0;
 			}
